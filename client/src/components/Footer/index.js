@@ -1,10 +1,10 @@
 import React from "react";
-// import "./style.css";
+
 
 const Footer = () => (
 	<footer className = "page-footer">
 		<div className = "container-fluid text-center">
-			<p>Jeff Corpuz</p>
+			<p><a href="https://github.com/Zuprocj/googlebooksearch" target="_blank">Git Repo</a></p>
 		</div>	
 	</footer>
 );

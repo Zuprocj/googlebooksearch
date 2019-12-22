@@ -50,7 +50,8 @@ class SearchBooks extends Component {
                     this.setState({ books: results, error: "" })
                 }
             })
-            .catch(err => this.setState({ error: err.items }));
+            .catch(err => this.setState({ error: err.items, 
+            message: "No Books Found, Try Again"}));
     }
 
     handleSavedButton = event => {
